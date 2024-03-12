@@ -11,3 +11,47 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+.main_container{
+  height : 100vh;
+  width: 100vw;
+  background-color: greenyellow;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  height: 25vh;
+  width: 25vw;
+  border: 1px solid rgb(187, 186, 186);
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.output{
+  background-color: rgb(7, 7, 113);
+  color: white;
+  text-align: center;
+}
+
+.increment_button{
+  background-color: rgb(7, 7, 113);
+  font-size: 20px;
+  color: white;
+  margin: 4px;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+
+.decrement_button{
+  margin: 4px;
+  background-color: rgb(7, 7, 113);
+  font-size: 20px;
+  color: white;
+  margin-top: 40px;
+  border-radius: 5px;
+}
