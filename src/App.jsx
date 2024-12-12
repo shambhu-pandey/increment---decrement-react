@@ -12,7 +12,7 @@ const App = () =>{
     setCount(count+1);
     }
     else{
-      alert("you reached at high value")
+      alert("you reached at high valu")
     }
   }
 
@@ -32,7 +32,7 @@ const App = () =>{
 
       <button className="increment_button" onClick={increment_value}><AddIcon /></button>
       <button className="decrement_button" onClick={decrement_value}><DeleteIcon /></button>
-    </div>
+      </div>
     </div>
     </>
   );
